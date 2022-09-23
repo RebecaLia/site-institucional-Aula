@@ -1,27 +1,26 @@
-.caixa_formulario {
+.caixa_cadastro {
     background-color: white;
     width: 400px;
-    height: 300px;
+    height: 400px;
     color: #32b9cd;
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 10px;
-
 }
 
-.caixa_formulario h1 {
+.caixa_cadastro h1 {
     font-size: 30px;
 }
 
-.formulario {
+.cadastro {
     display: flex;
     flex-direction: column;
     width: 200px;
     
 }
 
-.formulario button{
+.cadastro button {
     margin-top: 10px;
     background: #32b9cd;
     color: #fff;
@@ -33,10 +32,9 @@
     align-self: center;
 }
 
-.formulario input{
+.cadastro input{
     padding: 10px 15px;
     text-align: center;
     border: 2px solid rgb(123, 92, 216);
     border-radius: 10px;
 }
-
